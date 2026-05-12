@@ -22,8 +22,9 @@ st.markdown(
     }
 
     .block-container {
-        padding-top: 0rem;
+        padding-top: 0rem !important;
         padding-bottom: 1rem;
+        margin-top: -2rem;
     }
 
     h1 {
