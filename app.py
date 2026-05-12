@@ -23,8 +23,9 @@ st.markdown(
 
     h1 {
         text-align: center;
-        color: white;
+        color: #FFFFFF !important;
         font-size: 48px;
+        font-weight: bold;
     }
 
     .big-number {
