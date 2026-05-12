@@ -22,7 +22,7 @@ st.markdown(
     }
 
     .block-container {
-        padding-top: 0.2rem;
+        padding-top: 0rem;
         padding-bottom: 1rem;
     }
 
@@ -74,7 +74,7 @@ try:
     percent = raised / goal if goal else 0
 
     st.markdown(
-        "<h1>2026 NAMI Miami-Dade Walk for Mental Health Awareness Fundraising Progress</h1>",
+        "<h1>2026 NAMI Miami-Dade Walk for Mental Health Awareness Fundraising Progress!</h1>",
         unsafe_allow_html=True
     )
 
