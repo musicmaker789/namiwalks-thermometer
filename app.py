@@ -21,6 +21,11 @@ st.markdown(
         background-color: #2a386a;
     }
 
+    .block-container {
+        padding-top: 0.2rem;
+        padding-bottom: 1rem;
+    }
+
     h1 {
         text-align: center;
         color: #FFFFFF !important;
@@ -44,7 +49,7 @@ st.markdown(
         margin-top: 25px;
     }
 
-    /* Bigger Progress Bar */
+    /* Bigger Green Progress Bar */
     .stProgress > div > div > div > div {
         background-color: #6CC24A;
     }
