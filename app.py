@@ -23,8 +23,8 @@ st.markdown(
 
     .block-container {
         padding-top: 0rem !important;
-        padding-bottom: 0rem;
-        margin-top: -2rem;
+        padding-bottom: 1rem;
+        margin-top: -1.4rem;
     }
 
     h1 {
