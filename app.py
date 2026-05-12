@@ -18,18 +18,19 @@ st.markdown(
     <style>
 
     .stApp {
-        background-color: #003B5C;
+        background-color: #2a386a;
     }
 
     h1 {
         text-align: center;
         color: #FFFFFF !important;
-        font-size: 48px;
+        font-size: 42px;
         font-weight: bold;
+        margin-bottom: 30px;
     }
 
     .big-number {
-        font-size: 72px;
+        font-size: 78px;
         font-weight: bold;
         color: white;
         text-align: center;
@@ -37,10 +38,20 @@ st.markdown(
     }
 
     .goal-text {
-        font-size: 32px;
+        font-size: 34px;
         color: white;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 25px;
+    }
+
+    /* Bigger Progress Bar */
+    .stProgress > div > div > div > div {
+        background-color: #6CC24A;
+    }
+
+    .stProgress > div > div > div {
+        height: 40px;
+        border-radius: 20px;
     }
 
     </style>
@@ -58,7 +69,7 @@ try:
     percent = raised / goal if goal else 0
 
     st.markdown(
-        "<h1>NAMI Miami-Dade Walk Progress</h1>",
+        "<h1>2026 NAMI Miami-Dade Walk for Mental Health Awareness Fundraising Progress</h1>",
         unsafe_allow_html=True
     )
 
