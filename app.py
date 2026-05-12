@@ -63,7 +63,7 @@ try:
     )
 
     st.markdown(
-        f'<div class="big-number">${raised:,.0f}</div>',
+        f'<div class="big-number">${raised:,.2f}</div>',
         unsafe_allow_html=True
     )
 
